@@ -3,7 +3,7 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'LDSHack',
+  title: 'ldshack',
   tagline: 'Leeds-based hackerspace-in-progress',
   favicon: 'img/favicon.ico',
 
@@ -104,9 +104,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'ldshack',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'ldshack logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -167,7 +167,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://ldshack.org">ldshack.org</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://ldshack.org">LDSHack Community</a> is marked with <a href="http://creativecommons.org/publicdomain/zero/1.0?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC0 1.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/zero.svg?ref=chooser-v1"></a></p> `,
+      copyright: `<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://ldshack.org">ldshack.org</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://ldshack.org">ldshack Community</a> is marked with <a href="http://creativecommons.org/publicdomain/zero/1.0?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC0 1.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/zero.svg?ref=chooser-v1"></a></p> `,
     },
     prism: {
       theme: prismThemes.github,
