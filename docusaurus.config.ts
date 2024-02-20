@@ -7,23 +7,15 @@ const config: Config = {
   tagline: 'Leeds-based hackerspace-in-progress',
   favicon: 'img/favicon.ico',
 
-  // Set the production url of your site here
   url: 'https://www.ldshack.org',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
-
   organizationName: 'ldshack',
   projectName: 'www',
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
-
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -112,9 +104,9 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'handbookSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Handbook',
         },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
