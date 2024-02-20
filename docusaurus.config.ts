@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
@@ -28,6 +28,56 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
+  headTags: [
+    {
+      tagName: "link", attributes: {
+        rel: "apple-touch-icon",
+        sizes: "180x180",
+        href: "/apple-touch-icon.png",
+      },
+    },
+    {
+      tagName: "link", attributes: {
+        rel: "icon",
+        type: "image/png",
+        sizes: "32x32",
+        href: "/favicon-32x32.png",
+      },
+    },
+    {
+      tagName: "link", attributes: {
+        rel: "icon",
+        sizes: "16x16",
+        href: "/favicon-16x16.png",
+      },
+    },
+    {
+      tagName: "link", attributes: {
+        rel: "manifest",
+        href: "/site.webmanifest",
+      },
+    },
+    {
+      tagName: "link", attributes: {
+        rel: "mask-icon",
+        href: "/safari-pinned-tab.svg",
+        color: "#5bbad5"
+      },
+    },
+    {
+      tagName: "meta", attributes: {
+        rel: "msapplication-TileColor",
+        content: "#182f3d",
+      },
+    },
+    {
+      tagName: "meta", attributes: {
+        rel: "theme-color",
+        content: "#182f3d",
+      },
+    }
+  ],
 
   presets: [
     [
@@ -66,7 +116,7 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        { to: '/blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/ldshack',
           label: 'GitHub',
