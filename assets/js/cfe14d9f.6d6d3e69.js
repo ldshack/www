@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkldshack=self.webpackChunkldshack||[]).push([[379],{1241:s=>{s.exports=JSON.parse('{"permalink":"/blog/tags/mission-statement","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

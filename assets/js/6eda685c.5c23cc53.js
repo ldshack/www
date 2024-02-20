@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkldshack=self.webpackChunkldshack||[]).push([[603],{4066:s=>{s.exports=JSON.parse('{"label":"mission-statement","permalink":"/blog/tags/mission-statement","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
